@@ -1,13 +1,12 @@
 # Stock-Price-Prediction-using-ML-DL-Interactive-Dashboard
-# 📈 NIFTY 50 AI Stock Forecaster: End-to-End Time Series Analysis
+# Stock Forecaster: End-to-End Time Series Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/Deep%20Learning-TensorFlow%20%7C%20Keras-orange)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn%20%7C%20XGBoost-yellow)
 ![Streamlit](https://img.shields.io/badge/Deployment-Streamlit-red)
-![License](https://img.shields.io/badge/License-MIT-green)
 
-## 🚀 Project Overview
+##  Project Overview
 
 Predicting financial market trends is a complex challenge due to market volatility and non-linear patterns. This project builds a robust **Time-Series Forecasting Engine** that predicts the closing price of the **NIFTY 50** index. 
 
@@ -15,7 +14,7 @@ Instead of relying on a single algorithm, this system implements a **multi-model
 
 ---
 
-## 📸 Dashboard Demo
+##  Dashboard Demo
 
 <img width="1366" height="623" alt="Screenshot (1062)" src="https://github.com/user-attachments/assets/c0ac3671-2efd-496b-a415-4c87ff9a2a1c" />
 
@@ -23,7 +22,7 @@ Instead of relying on a single algorithm, this system implements a **multi-model
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Language:** Python 3.x
 * **Data Manipulation:** Pandas, NumPy
@@ -35,7 +34,7 @@ Instead of relying on a single algorithm, this system implements a **multi-model
 
 ---
 
-## 🧠 Methodology & Modeling Pipeline
+##  Methodology & Modeling Pipeline
 
 ### 1. Feature Engineering (Sliding Window)
 To transform the time-series data into a supervised learning format, the system generates datasets using a sliding window approach.
@@ -60,7 +59,7 @@ Models were evaluated using **Mean Absolute Error (MAE)** and **Root Mean Square
 
 ---
 
-## 💻 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 * Python 3.8+
@@ -89,12 +88,8 @@ Models were evaluated using **Mean Absolute Error (MAE)** and **Root Mean Square
 
 ---
 
-## 📊 Key Insights
+##  Key Insights
 * **Window Importance:** The 90-day look-back window often provided the best balance between capturing trends and avoiding noise for this specific dataset.
 * **Model Performance:** While LSTMs are powerful, distance-based algorithms like **KNN** and ensemble methods like **Random Forest** showed surprising resilience and accuracy in short-term volatility prediction compared to complex deep learning architectures on this specific timeframe.
 
 ---
-
-
-## 📜 License
-Distributed under the MIT License. See `LICENSE` for more information.
