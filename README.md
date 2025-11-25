@@ -1,5 +1,5 @@
 # Stock-Price-Prediction-using-ML-DL-Interactive-Dashboard
-# Stock Forecaster: End-to-End Time Series Analysis
+## End-to-End Time Series Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/Deep%20Learning-TensorFlow%20%7C%20Keras-orange)
@@ -10,7 +10,7 @@
 
 Predicting financial market trends is a complex challenge due to market volatility and non-linear patterns. This project builds a robust **Time-Series Forecasting Engine** that predicts the closing price of the **NIFTY 50** index. 
 
-Instead of relying on a single algorithm, this system implements a **multi-model benchmarking pipeline**, training over **15 different algorithms** (Classical ML, Gradient Boosting, and Deep Learning) across varying look-back windows (30, 60, 90, 120 days) to identify the optimal predictor. The best-performing models are deployed via an interactive **Streamlit Dashboard** connected to live market data.
+Instead of relying on a single algorithm, this system implements a **multi-model benchmarking pipeline**, training over **15 different algorithms** (Classical ML, Gradient Boosting, and Deep Learning) across varying look-back windows (30, 60, 90, 120 days) to identify the optimal predictor. The best-performing models are deployed via an interactive **Streamlit Dashboard** .
 
 ---
 
