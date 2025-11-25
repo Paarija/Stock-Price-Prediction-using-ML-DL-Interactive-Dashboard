@@ -68,8 +68,8 @@ Models were evaluated using **Mean Absolute Error (MAE)** and **Root Mean Square
 ### Setup
 1.  **Clone the repository:**
     ```bash
-   git clone https://github.com/Paarija/Stock-Price-Prediction-using-ML-DL-Interactive-Dashboard.git
-   cd Stock-Price-Prediction-using-ML-DL-Interactive-Dashboard
+    git clone https://github.com/Paarija/Stock-Price-Prediction-using-ML-DL-Interactive-Dashboard.git
+    cd Stock-Price-Prediction-using-ML-DL-Interactive-Dashboard
     ```
 
 2.  **Install dependencies:**
@@ -83,7 +83,7 @@ Models were evaluated using **Mean Absolute Error (MAE)** and **Root Mean Square
 
 4.  **Run the Application:**
     ```bash
-    streamlit run forecasting_dashboard.py
+    streamlit run dashboard.py
     ```
 
 ---
